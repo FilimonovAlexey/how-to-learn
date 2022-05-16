@@ -16,18 +16,18 @@
   max-height: 756px;
   position: relative;
   display: flex;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
-  position: absolute;
-  right: 0;
-  top: 64px;
   background-color: #2f80ed;
-  z-index: 2;
 }
 
 .header__title {
@@ -57,15 +57,6 @@
   height: 608px;
   right: 0;
   bottom: 0;
-  z-index: 3;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .logo_place_header {
@@ -170,6 +161,8 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  color: white;
+  margin-right: 0;
   margin-top: 80px;
 }
 
