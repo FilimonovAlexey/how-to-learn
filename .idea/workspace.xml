@@ -14,8 +14,14 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29viFP0S2WyAhAk9l497doJCTuS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -29,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653999855766</updated>
       <workItem from="1653999857449" duration="25000" />
+      <workItem from="1654102362835" duration="7000" />
     </task>
     <servers />
   </component>
